@@ -7,39 +7,39 @@
     <link href="./resources/css/style.css" rel="stylesheet" style="text/css">
   </head>
   <body>
-    <header class="desktop">
+    <header class="content desktop">
       <div class="logo">
         <img src="./resources/images/ic-logo.svg">
         <span><strong>COLMAR</strong>ACADEMY</span>
       </div>
       <nav>
-        <ul>
-          <li><a href="#">On campus</a></li>
-          <li><a href="#">Online</a></li>
-          <li><a href="#">Our companies</a></li>
-          <li><a href="#">Sign in</a></li>
-        </ul>
+        <a href="">On campus</a>
+        <a href="">Online</a>
+        <a href="">Our companies</a>
+        <a href="">Sign in</a>
       </nav>
     </header>
     <header class="mobile">
       <nav>
-        <ul>
-          <li><a href="#"><img src="./resources/images/ic-logo.svg"></a></li>
-          <li><a href="#"><img src="./resources/images/ic-on-campus.svg"></a></li>
-          <li><a href="#"><img src="./resources/images/ic-online.svg"></a></li>
-          <li><a href="#"><img src="./resources/images/ic-login.svg"></a></li>
-        </ul>
+        <a href=""><img src="./resources/images/ic-logo.svg"></a>
+        <a href=""><img src="./resources/images/ic-on-campus.svg"></a>
+        <a href=""><img src="./resources/images/ic-online.svg"></a>
+        <a href=""><img src="./resources/images/ic-login.svg"></a>
       </nav>
     </header>
     <main>
-      <div class="banner">
-        <img src="./resources/images/banner.jpg" alt="banner image">
-        <div class="launch">
-          <h1>Learn somthing new everyday</h1>
-          <h3>Lorem ipusm dolor sit amet, consectetur adipiscing elit.</h3>
-          <button>
-            <span>Start here</span>
-          </button>
+      <div class="banner content">
+        <div class ="image">
+          <img src="./resources/images/banner.jpg" alt="banner image">
+        </div>
+        <div class="launcharea">
+          <div class="launch">
+            <h1>Learn somthing new everyday</h1>
+            <h3>Lorem ipusm dolor sit amet, consectetur adipiscing elit.</h3>
+            <button>
+              <span>Start here</span>
+            </button>
+          </div>
         </div>
       </div>
       <div class="content lr">
@@ -47,9 +47,9 @@
           <article>
             <img src="./resources/images/information-main.jpg">
             <div>
-              <h1>It doesn't hurt to keep practicing</h1>
+              <h2>It doesn't hurt to keep practicing</h2>
               <p>"Curabitur vitae libero in ipsum porittitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellues sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
-              <caption>Emanuel, Sr Strategist at Hiring.com</caption>
+              <p class="small">Emanuel, Sr Strategist at Hiring.com</p>
             </div>
           </article>
         </div>
@@ -59,7 +59,7 @@
             <div>
               <h3>Orientation Date</h3>
               <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-              <p><a href="#">Read more</a></p>
+              <p><a href="">Read more</a></p>
             </div>
           </article>
           <article>
@@ -67,7 +67,7 @@
             <div>
               <h3>Our campus</h3>
               <p>Find which campus is close by you</p>
-              <p><a href="#">Read more</a></p>
+              <p><a href="">Read more</a></p>
             </div>
           </article>
           <article>
@@ -75,15 +75,15 @@
             <div>
               <h3>Our guest lecture</h3>
               <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-              <p><a href="#">Read more</a></p>
+              <p><a href="">Read more</a></p>
             </div>
           </article>
         </div>
       </div>
       <div class="content grid">
         <h2>Start Learning</h2>
-        <div>
-          <a href="#" class="box">
+        <div class="boxes">
+          <a href="" class="box">
             <img src="./resources/images/course-software.jpg">
             <div class="text">
               <h3>Software engineering</h3>
@@ -91,7 +91,7 @@
               <p>Web Development, Mobile Development, iOT, APIs</p>
             </div>
           </a>
-          <a href="#" class="box">
+          <a href="" class="box">
             <img src="./resources/images/course-computer-art.jpg">
             <div class="text">
               <h3>Computer art</h3>
@@ -99,7 +99,7 @@
               <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
             </div>
           </a>
-          <a href="#" class="box">
+          <a href="" class="box">
             <img src="./resources/images/course-design.jpg">
             <div class="text">
               <h3>Design</h3>
@@ -107,7 +107,7 @@
               <p>User Experience Design, User Research, Visual Design</p>
             </div>
           </a>
-          <a href="#" class="box">
+          <a href="" class="box">
             <img src="./resources/images/course-data.jpg">
             <div class="text">
               <h3>Data</h3>
@@ -115,7 +115,7 @@
               <p>Data Science, Big Data, SQL, Data Visualization</p>
             </div>
           </a>
-          <a href="#" class="box">
+          <a href="" class="box">
             <img src="./resources/images/course-business.jpg">
             <div class="text">
               <h3>Business</h3>
@@ -123,7 +123,7 @@
               <p>Product Development, Business Development, Startup</p>
             </div>
           </a>
-          <a href="#" class="box">
+          <a href="" class="box">
             <img src="./resources/images/course-marketing.jpg">
             <div class="text">
               <h3>Marketing</h3>
@@ -137,37 +137,39 @@
         <h2>Thesis exhibit</h2>
         <div class="left">
           <article>
-            <video controls>
+            <video width="100%" height="auto" controls>
               <source src="./resources/videos/thesis.mp4" type="video/mp4">
                 Your browser does not support the video tag
             </video>
             <div>
-              <h1>It doesn't hurt to keep practicing</h1>
+              <h3>Reimagine urban</h3>
               <p>"Curabitur vitae libero in ipsum porittitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellues sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
             </div>
           </article>
         </div>
         <div class="right">
           <article>
-            <img src="./resources/images/information-campus.jpg">
+            <img src="./resources/images/thesis-fisma.jpg">
             <div>
-              <h3>Our campus</h3>
-              <p>Find which campus is close by you</p>
-              <p><a href="#">Read more</a></p>
+              <h3>Fisma: Design and Prototype</h3>
+              <p>Designer showcase of new prototype product</p>
             </div>
           </article>
           <article>
-            <img src="./resources/images/information-guest-lecture.jpg">
+            <img src="./resources/images/thesis-now-and-then.jpg">
             <div>
-              <h3>Our guest lecture</h3>
-              <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-              <p><a href="#">Read more</a></p>
+              <h3>Now and then</h3>
+              <p>Research study about New York</p>
             </div>
           </article>
         </div>
       </div>
     </main>
-    <footer>
+    <footer class="content">
+      <span>(c) 2016 Colmar Academy. All rights reserved</span>
+      <nav>
+        <span><a href="">Terms</a></span>
+        <span><a href="">Privacy</a></span>
     </footer>
   </body>
 </html>

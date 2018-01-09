@@ -1,0 +1,188 @@
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: rgb(74,74,74);
+  margin-left: -8px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(74,74,74);
+}
+h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-weight: lighter;
+}
+
+
+.content {
+  display: flex;
+  width: 100%;
+  right: 0;
+}
+
+header {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  height: 4rem;
+  width: 100%;
+  z-index: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  padding-left: 1.5rem;
+}
+
+header .logo img {
+  height: 3.25rem;
+}
+
+header .logo span {
+  font-size: 2rem;
+}
+
+header nav {
+  padding-right: 1.5rem;
+}
+
+header nav a {
+  color: black;
+  padding: 0.5rem;
+}
+
+.banner {
+  background-color: rgb(216,216,216);
+  align-items: center;
+  position: relative;
+  top: 4rem;
+}
+
+.banner .image {
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner .launcharea {
+  width: 40%;
+}
+
+.banner .launch {
+  display: flex;
+  flex-flow: column wrap;
+  width: 28rem;
+  margin-left: 1.5rem;
+}
+
+.banner .launch button {
+  padding: 0.5rem;
+  color: white;
+  background-color: rgb(74,74,74);
+  border: none;
+  font-size: 1.125rem;
+}
+
+.lr {
+  background-color: white;
+  margin: 2rem 0;
+  position: relative;
+}
+
+.left {
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+.left img {
+  width: 100%;
+}
+
+.left article div .small {
+  font-size: 0.8rem;
+}
+
+.right {
+  width: 40%;
+  margin-left: 0.5rem;
+}
+
+.right article {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+}
+
+.right article div {
+  margin-left: 1rem;
+}
+
+.right article img {
+  width: 35%;
+  height: auto;
+}
+
+.right article a {
+  color: rgb(81, 148, 227);
+}
+
+.lr .right {
+  border-left: solid 1px rgb(216,216,216);
+}
+
+.grid {
+  background-color: rgb(216,216,216);
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.grid h2 {
+  margin-top: 2rem;
+}
+
+.grid .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2rem 4.5rem;
+}
+
+.grid .boxes .box {
+  display: flex;
+  flex-flow: column wrap;
+  width: 30%;
+  margin-left: 1rem;
+}
+
+@media only screen and (min-width: 500px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .desktop {
+    display: none;
+  }
+}
