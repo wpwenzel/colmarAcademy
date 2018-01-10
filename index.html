@@ -54,7 +54,7 @@
           </article>
         </div>
         <div class="right">
-          <article>
+          <article id="orientation">
             <img src="./resources/images/information-orientation.jpg">
             <div>
               <h3>Orientation Date</h3>
@@ -62,7 +62,7 @@
               <p><a href="">Read more</a></p>
             </div>
           </article>
-          <article>
+          <article id="campus">
             <img src="./resources/images/information-campus.jpg">
             <div>
               <h3>Our campus</h3>
@@ -70,7 +70,7 @@
               <p><a href="">Read more</a></p>
             </div>
           </article>
-          <article>
+          <article id="guest">
             <img src="./resources/images/information-guest-lecture.jpg">
             <div>
               <h3>Our guest lecture</h3>
@@ -83,85 +83,91 @@
       <div class="content grid">
         <h2>Start Learning</h2>
         <div class="boxes">
-          <a href="" class="box">
-            <img src="./resources/images/course-software.jpg">
-            <div class="text">
-              <h3>Software engineering</h3>
-              <h4>Courses</h4>
-              <p>Web Development, Mobile Development, iOT, APIs</p>
+          <div class="row a">
+            <div class="box">
+              <img src="./resources/images/course-software.jpg">
+              <div class="text">
+                <h3>Software engineering</h3>
+                <h4>Courses</h4>
+                <p>Web Development, Mobile Development, iOT, APIs</p>
+              </div>
             </div>
-          </a>
-          <a href="" class="box">
-            <img src="./resources/images/course-computer-art.jpg">
-            <div class="text">
-              <h3>Computer art</h3>
-              <h4>Courses</h4>
-              <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+            <div class="box">
+              <img src="./resources/images/course-computer-art.jpg">
+              <div class="text">
+                <h3>Computer art</h3>
+                <h4>Courses</h4>
+                <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+              </div>
             </div>
-          </a>
-          <a href="" class="box">
-            <img src="./resources/images/course-design.jpg">
-            <div class="text">
-              <h3>Design</h3>
-              <h4>Courses</h4>
-              <p>User Experience Design, User Research, Visual Design</p>
+            <div class="box">
+              <img src="./resources/images/course-design.jpg">
+              <div class="text">
+                <h3>Design</h3>
+                <h4>Courses</h4>
+                <p>User Experience Design, User Research, Visual Design</p>
+              </div>
             </div>
-          </a>
-          <a href="" class="box">
-            <img src="./resources/images/course-data.jpg">
-            <div class="text">
-              <h3>Data</h3>
-              <h4>Courses</h4>
-              <p>Data Science, Big Data, SQL, Data Visualization</p>
+          </div>
+          <div class="row b">
+            <div class="box">
+              <img src="./resources/images/course-data.jpg">
+              <div class="text">
+                <h3>Data</h3>
+                <h4>Courses</h4>
+                <p>Data Science, Big Data, SQL, Data Visualization</p>
+              </div>
             </div>
-          </a>
-          <a href="" class="box">
-            <img src="./resources/images/course-business.jpg">
-            <div class="text">
-              <h3>Business</h3>
-              <h4>Courses</h4>
-              <p>Product Development, Business Development, Startup</p>
+            <div class="box">
+              <img src="./resources/images/course-business.jpg">
+              <div class="text">
+                <h3>Business</h3>
+                <h4>Courses</h4>
+                <p>Product Development, Business Development, Startup</p>
+              </div>
             </div>
-          </a>
-          <a href="" class="box">
-            <img src="./resources/images/course-marketing.jpg">
-            <div class="text">
-              <h3>Marketing</h3>
-              <h4>Courses</h4>
-              <p>Analytics, Content Marketing, Mobile Marketing</p>
+            <div class="box">
+              <img src="./resources/images/course-marketing.jpg">
+              <div class="text">
+                <h3>Marketing</h3>
+                <h4>Courses</h4>
+                <p>Analytics, Content Marketing, Mobile Marketing</p>
+              </div>
             </div>
-          </a>
+          </div>
         </div>
       </div>
       <div class="content thesis">
         <h2>Thesis exhibit</h2>
-        <div class="left">
-          <article>
-            <video width="100%" height="auto" controls>
-              <source src="./resources/videos/thesis.mp4" type="video/mp4">
-                Your browser does not support the video tag
-            </video>
-            <div>
-              <h3>Reimagine urban</h3>
-              <p>"Curabitur vitae libero in ipsum porittitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellues sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
-            </div>
-          </article>
-        </div>
-        <div class="right">
-          <article>
-            <img src="./resources/images/thesis-fisma.jpg">
-            <div>
-              <h3>Fisma: Design and Prototype</h3>
-              <p>Designer showcase of new prototype product</p>
-            </div>
-          </article>
-          <article>
-            <img src="./resources/images/thesis-now-and-then.jpg">
-            <div>
-              <h3>Now and then</h3>
-              <p>Research study about New York</p>
-            </div>
-          </article>
+        <div class="row">
+          <div class="left">
+            <article>
+              <video width="100%" height="auto" controls>
+                <source src="./resources/videos/thesis.mp4" type="video/mp4">
+                  Your browser does not support the video tag
+              </video>
+              <div>
+                <h3>Reimagine urban</h3>
+                <p>"Curabitur vitae libero in ipsum porittitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellues sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+              </div>
+            </article>
+          </div>
+          <div class="right">
+            <article id="fisma">
+              <img src="./resources/images/thesis-fisma.jpg">
+              <div>
+                <h3>Fisma: Design and Prototype</h3>
+                <p>Designer showcase of new prototype product</p>
+              </div>
+            </article>
+            <article id="now-and-then">
+              <img src="./resources/images/thesis-now-and-then.jpg">
+              <div>
+                <h3>Now and then</h3>
+                <p>Research study about New York</p>
+              </div>
+            </article>
+          </div>
         </div>
       </div>
     </main>

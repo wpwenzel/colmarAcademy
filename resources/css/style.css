@@ -155,6 +155,7 @@ header nav a {
   background-color: rgb(216,216,216);
   flex-flow: column wrap;
   align-items: center;
+
 }
 
 .grid h2 {
@@ -162,19 +163,68 @@ header nav a {
 }
 
 .grid .boxes {
+  margin: 32px 72px 32px 56px;
+}
+
+.grid .boxes .row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 2rem 4.5rem;
+  margin-bottom: 32px;
 }
 
-.grid .boxes .box {
-  display: flex;
+.grid .boxes .row .box {
+  display: inline-flex;
+  background-color: white;
+  flex-wrap: wrap;
+  width: 350px;
+  height: 350px;
+  margin-left: 2rem;
+}
+
+.grid .boxes .row .box img {
+  height: 50%;
+  width: 100%;
+}
+
+.grid .boxes .row .box .text {
+  display: inline-flex;
   flex-flow: column wrap;
-  width: 30%;
-  margin-left: 1rem;
+  flex-shrink: 1;
 }
 
+.grid .boxes .row .box .text h3, .grid .boxes .row .box .text h4, .grid .boxes .row .box .text p {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.grid .boxes .row .box .text h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.grid .boxes .row .box .text h4 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.grid .boxes .row .box .text p {
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.thesis {
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.thesis .row {
+  display: flex;
+  flex-wrap: column wrap;
+}
+
+#fisma, #guest {
+  background-color: rgb(216,216,216)
+}
 @media only screen and (min-width: 500px) {
   .mobile {
     display: none;
