@@ -217,22 +217,59 @@ header nav a {
   align-items: center;
 }
 
+.thesis h2 {
+  margin-top: 2rem;
+}
+
 .thesis .row {
   display: flex;
   flex-wrap: column wrap;
+  margin: 2rem 0 2rem 1.5rem;
 }
 
 #fisma, #guest {
   background-color: rgb(216,216,216)
 }
-@media only screen and (min-width: 500px) {
+
+footer {
+  justify-content: space-between;
+  font-size: 0.8rem;
+  border-top: solid 1px rgb(216,216,216);
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+footer span {
+  margin-left: 1.5rem;
+}
+
+@media only screen and (min-width: 480px) {
   .mobile {
     display: none;
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 8px;
+  }
   .desktop {
     display: none;
+  }
+  body {
+    width: 480px;
+  }
+  header {
+    width: 480px;
+  }
+  footer {
+    width: 480px;
+  }
+  .banner {
+    flex-direction: column;
+  }
+  .banner .image {
+    width: 100%;
+    margin: 0;
   }
 }
