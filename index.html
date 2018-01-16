@@ -55,7 +55,8 @@
         </div>
         <div class="right">
           <article id="orientation">
-            <img src="./resources/images/information-orientation.jpg">
+            <img src="./resources/images/information-orientation.jpg" class="desktop">
+            <img src="./resources/images/information-orientation-mobile.jpg" class="mobile">
             <div>
               <h3>Orientation Date</h3>
               <p>Tue 10/11 &#38; Wed 10/12: 8am-3pm</p>
@@ -63,7 +64,8 @@
             </div>
           </article>
           <article id="campus">
-            <img src="./resources/images/information-campus.jpg">
+            <img src="./resources/images/information-campus.jpg" class="desktop">
+            <img src="./resources/images/information-campus-mobile.jpg" class="mobile">
             <div>
               <h3>Our campus</h3>
               <p>Find which campus is close by you</p>
@@ -71,7 +73,8 @@
             </div>
           </article>
           <article id="guest">
-            <img src="./resources/images/information-guest-lecture.jpg">
+            <img src="./resources/images/information-guest-lecture.jpg" class="desktop">
+            <img src="./resources/images/information-guest-lecture-mobile.jpg" class="mobile">
             <div>
               <h3>Our guest lecture</h3>
               <p>Join a keynote with Oliver Sack about music in medical treatment</p>
@@ -82,7 +85,7 @@
       </div>
       <div class="content grid">
         <h2>Start Learning</h2>
-        <div class="boxes">
+        <div class="boxes desktop">
           <div class="row a">
             <div class="box">
               <img src="./resources/images/course-software.jpg">
@@ -136,9 +139,17 @@
             </div>
           </div>
         </div>
+        <div class="boxes mobile">
+          <button><h3>Software Engineering</h3></button>
+          <button><h3>Computer art</h3></button>
+          <button><h3>Design</h3></button>
+          <button><h3>Data</h3></button>
+          <button><h3>Business</h3></button>
+          <button><h3>Marketing</h3></button>
+        </div>
       </div>
       <div class="content thesis">
-        <h2>Thesis exhibit</h2>
+        <h2>Thesis exhibits</h2>
         <div class="row">
           <div class="left">
             <article>
@@ -146,13 +157,13 @@
                 <source src="./resources/videos/thesis.mp4" type="video/mp4">
                   Your browser does not support the video tag
               </video>
-              <div>
+              <div class="desktop">
                 <h3>Reimagine urban</h3>
                 <p>"Curabitur vitae libero in ipsum porittitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellues sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
               </div>
             </article>
           </div>
-          <div class="right">
+          <div class="right desktop">
             <article id="fisma">
               <img src="./resources/images/thesis-fisma.jpg">
               <div>
@@ -173,7 +184,7 @@
     </main>
     <footer class="content">
       <span>&copy; 2016 Colmar Academy. All rights reserved</span>
-      <nav>
+      <nav class="desktop">
         <span><a href="">Terms</a></span>
         <span><a href="">Privacy</a></span>
       </nav>

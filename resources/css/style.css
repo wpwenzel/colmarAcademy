@@ -251,7 +251,7 @@ footer span {
 
 @media only screen and (max-width: 480px) {
   html {
-    font-size: 8px;
+    font-size: 16px;
   }
   .desktop {
     display: none;
@@ -262,14 +262,92 @@ footer span {
   header {
     width: 480px;
   }
+
+  header nav {
+    width: 100%;
+    padding: 0;
+  }
+
   footer {
     width: 480px;
   }
+
   .banner {
     flex-direction: column;
+    align-items: baseline;
   }
   .banner .image {
     width: 100%;
     margin: 0;
+  }
+
+  .banner .launcharea {
+    width: 100%;
+  }
+  .banner .launcharea .launch {
+    margin: 4rem 2rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  .banner .launcharea .launch h1 {
+    margin: 0;
+  }
+
+  .banner .launcharea .launch button {
+    width: 100%;
+  }
+
+  .content.lr .left {
+    display: none;
+  }
+
+  .content.lr .right {
+    width: 100%;
+  }
+
+  .right article {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #guest {
+    background-color: white;
+  }
+  .right article img {
+    width: 100%;
+  }
+
+  .right article div {
+    justify-content: flex-start;
+  }
+
+  .grid {
+    background-color: rgb(245, 244, 245);
+  }
+
+  .grid .boxes {
+    margin: 1rem;
+  }
+
+  .grid .boxes button {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    border: none;
+    text-align: left;
+    padding-left: 1rem;
+  }
+  .thesis h2 {
+    margin-bottom: 1rem;
+  }
+  .thesis .row {
+    margin: 0;
+  }
+
+  .thesis .row .left {
+    width: 100%;
+  }
+
+  footer {
+    border: none;
   }
 }
