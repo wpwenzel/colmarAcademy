@@ -257,19 +257,19 @@ footer span {
     display: none;
   }
   body {
-    width: 480px;
+    width: auto;
   }
   header {
-    width: 480px;
+    width: auto;
   }
 
   header nav {
-    width: 100%;
+    width: auto;
     padding: 0;
   }
 
   footer {
-    width: 480px;
+    width: auto;
   }
 
   .banner {
@@ -277,16 +277,16 @@ footer span {
     align-items: baseline;
   }
   .banner .image {
-    width: 100%;
+    width: auto;
     margin: 0;
   }
 
   .banner .launcharea {
-    width: 100%;
+    width: auto;
   }
   .banner .launcharea .launch {
     margin: 4rem 2rem;
-    width: 100%;
+    width: auto;
     overflow: hidden;
   }
   .banner .launcharea .launch h1 {
@@ -294,7 +294,7 @@ footer span {
   }
 
   .banner .launcharea .launch button {
-    width: 100%;
+    width: auto;
   }
 
   .content.lr .left {
@@ -302,12 +302,17 @@ footer span {
   }
 
   .content.lr .right {
-    width: 100%;
+    width: auto;
+  }
+
+  .lr .right {
+    border: none;
   }
 
   .right article {
     flex-direction: column;
     align-items: flex-start;
+
   }
 
   #guest {
@@ -344,7 +349,7 @@ footer span {
   }
 
   .thesis .row .left {
-    width: 100%;
+    width: auto;
   }
 
   footer {
