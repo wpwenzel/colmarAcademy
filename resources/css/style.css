@@ -13,6 +13,7 @@ a {
   text-decoration: none;
   color: rgb(74,74,74);
 }
+
 h1 {
   font-size: 3.5rem;
   font-weight: bold;
@@ -32,7 +33,6 @@ h4 {
   font-weight: lighter;
 }
 
-
 .content {
   display: flex;
   width: 100%;
@@ -40,17 +40,20 @@ h4 {
 }
 
 header {
-  position: fixed;
+  /*position: fixed;*/
   background-color: white;
   top: 0;
   height: 4rem;
-  width: 100%;
   z-index: 1;
   justify-content: space-between;
   align-items: center;
 }
 
-header .logo {
+.navbar {
+  background-color: white;
+  border: none;
+}
+/*header .logo {
   display: flex;
   align-items: center;
   padding-left: 1.5rem;
@@ -61,7 +64,7 @@ header .logo img {
 }
 
 header .logo span {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 header nav {
@@ -71,12 +74,13 @@ header nav {
 header nav a {
   color: black;
   padding: 0.5rem;
-}
+}*/
 
 .banner {
   background-color: rgb(216,216,216);
   align-items: center;
   position: relative;
+  width: auto;
 }
 
 .banner .image {
@@ -95,8 +99,9 @@ header nav a {
 .banner .launch {
   display: flex;
   flex-flow: column wrap;
-  width: 28rem;
+  width: auto;
   margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .banner .launch button {
