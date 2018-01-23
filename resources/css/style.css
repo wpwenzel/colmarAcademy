@@ -163,59 +163,57 @@ header nav a {
   background-color: rgb(216,216,216);
   flex-flow: column wrap;
   align-items: center;
-
 }
 
 .grid h2 {
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
-.grid .boxes {
-  margin: 32px 72px 32px 56px;
+.row.content {
+  flex-flow: wrap;
+  justify-content: center;
 }
 
-.grid .boxes .row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 32px;
-}
-
-.grid .boxes .row .box {
-  display: inline-flex;
+.box {
   background-color: white;
-  flex-wrap: wrap;
-  width: 350px;
-  height: 350px;
+  padding: 0;
   margin-left: 2rem;
+  margin-bottom: 2rem;
+  flex-grow: 2;
+  flex-shrink: 2;
+  max-width: 400px;
 }
 
-.grid .boxes .row .box img {
+.box img {
   height: 50%;
   width: 100%;
 }
 
-.grid .boxes .row .box .text {
+.box .text {
   display: inline-flex;
   flex-flow: column wrap;
   flex-shrink: 1;
+  flex-grow: 2;
 }
 
-.grid .boxes .row .box .text h3, .grid .boxes .row .box .text h4, .grid .boxes .row .box .text p {
+.grid .row .box .text h3, .grid .row .box .text h4, .grid .row .box .text p {
   margin-left: 1rem;
   margin-right: 1rem;
+
 }
 
-.grid .boxes .row .box .text h3 {
+.grid .row .box .text h3 {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
 }
 
-.grid .boxes .row .box .text h4 {
+.grid .row .box .text h4 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
-.grid .boxes .row .box .text p {
+.grid .row .box .text p {
   margin-top: 0.5rem;
   margin-bottom: 1.5rem;
 }
