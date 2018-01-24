@@ -142,6 +142,10 @@ header nav a {
   align-items: center;
 }
 
+.right article:hover {
+  background-color: rgb(216,216,216);
+}
+
 .right article div {
   margin-left: 1rem;
 }
@@ -233,9 +237,9 @@ header nav a {
   margin: 2rem 0 2rem 1.5rem;
 }
 
-#fisma, #guest {
+/*#fisma, #guest {
   background-color: rgb(216,216,216)
-}
+}*/
 
 footer {
   justify-content: space-between;
